@@ -1,0 +1,44 @@
+body {
+    margin-left: 0;
+    margin-right: 0;
+    background-color: var(--light);
+    overflow: hidden;
+}
+
+h1.title {
+    float: left;
+    height: 40px;
+    line-height: 40px;
+    margin-left: 20px;
+    margin: 20px;
+    text-transform: uppercase;
+}
+
+h1.title a {
+    text-decoration: none;
+}
+
+ul.navigation {
+    float: right;
+    list-style-type: none;
+    margin: 20px;
+}
+
+ul.navigation li {
+    display: inline;
+    line-height: 40px;
+    line-height: 40px;
+    margin-left: 20px;
+    text-transform: uppercase;
+}
+
+/* Links in the navigation */
+ul.navigation li a {
+    text-decoration: none;
+    
+}
+
+/* Links on hover */
+ul.navigation li a:hover {
+    color: cornflowerblue;
+}
