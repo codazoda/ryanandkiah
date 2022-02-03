@@ -1,8 +1,19 @@
+@font-face {
+    font-family: 'Playfair Display SC';
+    src: url(media/font/PlayfairDisplaySC-Regular.ttf);
+}
+
 body {
     margin-left: 0;
     margin-right: 0;
     background-color: var(--light);
     overflow: hidden;
+    font-family: 'Playfair Display SC', serif;
+    font-weight: normal;
+}
+
+h1 {
+    font-weight: normal;
 }
 
 h1.title {
